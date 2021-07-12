@@ -1,0 +1,3 @@
+Extensions
+- audio files and amplitude as expression of affect
+	=> only use if it audio is connected to timestamped transcript

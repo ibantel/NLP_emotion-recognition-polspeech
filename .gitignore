@@ -1,0 +1,95 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# Some specific filetypes
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Rdata
+*.Ruserdata
+*.dta
+*.eps
+*.jpg
+*.pdf
+*.jpeg
+*.png
+*.html
+*.shp
+*.xml
+*.tsv
+*.ini
+*.sav	
+*.sps
+*.xls
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.docx
+*.Rhistory
+*.out
+*.lot
+*.gz
+*.toc
+*.lof
+*.rds
+*.aux
+*.xlsx
+*.doc
+*.7z
+*.csv
+*.js
+*.exe
+*.gif
+*.htm
+*.svg
+*.css
+*.wmv
+*.DS_store
+*.bak
+*.msg
+*.tab
+*.data
+*.px
+
+
+.Rproj.user
+
+Data/ESS Data/NUTS2013-NUTS2016\.xlsx
+
+Data/Onet Data - ISCO Crossover/Read Me.txt
+
+\#General Notes and Thoughts.lyx#
+
+
+
+*.log
+
+*.nav
+
+*.snm
+
+*.lyx~
+
+*.zip
+
+
+Data/Media/Newspaper Articles/
+
+Data/Annual Reports/
+
+Data/Ad$pender/Login Data.txt

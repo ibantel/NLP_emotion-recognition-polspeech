@@ -1,0 +1,33 @@
+project ideas NLP
+- training classifier to detect different sentiments related to AP in speech (disgust, contempt, anger, ...)
+- active learning
+- NER -> identify statements against: other people (MPs, ...), other groups (factions, parties, ...), policies
+	=> has polarization on policy things gone down but polarization on people / groups increased?
+
+identifying anger and disgust
+
+@Elliott: word embeddings => "anger dimension"; does this work?
+
+_FROM ELLIOTT_
+
+-- affective polarization vs subjective well being
+  -- there is an intersection there in NLP
+
+-- how to get at these dimensions or the attitudes
+  -- positive vs negative sentiment towards individuals, organizations, etc
+
+-- positive vs negative affect, as reflecting well-being
+
+-- UK parliament has recorded interjections, suggesting positive vs negative
+
+-- most polarized policies vs most polarized individuals
+
+-- attitudes toward people
+
+-- sentence classification
+  -- anger
+  -- hate
+  -- disgust
+  -- contempt
+
+-- anger vs disgust
