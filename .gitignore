@@ -72,4 +72,6 @@ vignettes/*.pdf
 *.lyx~
 
 *.zip
-*.csv
+data/Corp_HouseOfCommons_V2.csv
+data/preprocessed/1-House_of_commons_2019ff_preprocessed.csv
+data/preprocessed/2-House_of_commons_2019ff_vader-textblob.csv
