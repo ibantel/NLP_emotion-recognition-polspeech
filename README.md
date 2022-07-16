@@ -6,9 +6,11 @@ The project aims to recognize discrete emotions in political speech (speeches in
 
 Data: from the *ParlSpeech project* (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN).
 
-The project contains:
-- `code/`
- ⌞ `/00-House-of-Commons_preparation.R` to preprare the raw data for manipulation in python (`.RDS` -> `.csv`)
+The project has the following structure (incl explanations):
+```
+code
+└─── 00-House-of-Commons_preparation.R (to preprare the raw data for manipulation in python (.RDS -> .csv)
+```
  ⌞ `/01-HoC_preparation_IB.py` to prepare the raw `.csv` data for analysis (sentence splitting and running language models)
  ⌞ `/02-HoC_vader-textblob_IB.py` to conduct preliminary analysis with `vader` and `textblob`
  ⌞ `/03-emotion-recognition_with_BERT.ipynb` - the actual emotion recognition
