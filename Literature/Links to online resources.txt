@@ -1,4 +1,0 @@
-Sentiment analysis code examples/sources:
-  - https://d2l.ai/chapter_natural-language-processing-applications/sentiment-analysis-rnn.html
-  - https://www.kaggle.com/rtatman/tutorial-sentiment-analysis-in-r
-  - https://realpython.com/python-nltk-sentiment-analysis/ (note that Vader is optimized for social media sentiment)
