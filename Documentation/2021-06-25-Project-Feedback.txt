@@ -1,5 +1,0 @@
-- account for highly stylised/ formal speech of HoC (modify off-the-shelf tools more)
-- capture the linkages between individuals and the emotion attached to it more (and how much the previous speech's affect influences that) [networks of affects]
-- 
-
-
