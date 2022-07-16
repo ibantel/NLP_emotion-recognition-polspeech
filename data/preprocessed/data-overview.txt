@@ -1,0 +1,5 @@
+data files in this folder (ignored for github):
+
+1-House_of_commons_2019ff_preprocessed.csv
+1-House_of_commons_2019ff_preprocessed_head100.csv
+2-House_of_commons_2019ff_vader-textblob.csv
