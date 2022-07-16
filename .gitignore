@@ -23,10 +23,6 @@ vignettes/*.pdf
 *.Ruserdata
 *.dta
 *.eps
-*.jpg
-*.pdf
-*.jpeg
-*.png
 *.html
 *.shp
 *.xml
@@ -51,7 +47,6 @@ vignettes/*.pdf
 *.xlsx
 *.doc
 *.7z
-*.csv
 *.js
 *.exe
 *.gif
@@ -68,15 +63,6 @@ vignettes/*.pdf
 
 
 .Rproj.user
-
-Data/ESS Data/NUTS2013-NUTS2016\.xlsx
-
-Data/Onet Data - ISCO Crossover/Read Me.txt
-
-\#General Notes and Thoughts.lyx#
-
-
-
 *.log
 
 *.nav
@@ -86,10 +72,3 @@ Data/Onet Data - ISCO Crossover/Read Me.txt
 *.lyx~
 
 *.zip
-
-
-Data/Media/Newspaper Articles/
-
-Data/Annual Reports/
-
-Data/Ad$pender/Login Data.txt
