@@ -1,4 +1,3 @@
-#Ivo's file
 #%% Imports
 import nltk
 #import numpy as np
