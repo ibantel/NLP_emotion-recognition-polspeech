@@ -1,0 +1,8 @@
+RoBERTa
+--------------------------------------
+https://huggingface.co/transformers/model_doc/roberta.html
+https://github.com/pytorch/fairseq/tree/master/examples/roberta
+https://towardsdatascience.com/transformers-retraining-roberta-base-using-the-roberta-mlm-procedure-7422160d5764
+
+BERT more generally
+https://towardsdatascience.com/nlp-extract-contextualized-word-embeddings-from-bert-keras-tf-67ef29f60a7b

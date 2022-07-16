@@ -18,7 +18,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 sid = SentimentIntensityAnalyzer() # instantiate sentiment intensity analyzer
 
-HoC_l_tmp = pd.read_csv("./Data/UK-HoC/preprocessed/1-House_of_commons_2019ff_preprocessed.csv",
+HoC_l_tmp = pd.read_csv("./data/preprocessed/1-House_of_commons_2019ff_preprocessed.csv",
                         index_col=0).rename(columns={"sentence":"sentences"}) # tmp import
 # functionally equivalent to HoC_matthias.csv (which is ambiguously named)
 
@@ -34,5 +34,4 @@ sents_series = HoC_l_tmp["sentences"].astype(str).apply(lambda sentence: TextBlo
 sents_df = pd.DataFrame(sents_series.tolist(), index = HoC_l_tmp.reset_index()['index'].values.tolist())  # unpack dict to data frame
 for col in sents_df: HoC_l_tmp["txtblob_" + col] = sents_df[col] # merge data frames
 
-HoC_l_tmp.to_csv("./Data/UK-HoC/preprocessed/2-House_of_commons_2019ff_vader-textblob.csv")
-# functionally equivalent to HoC_matthias_sent-vader-textblob.csv (which is ambiguously named)
+HoC_l_tmp.to_csv("./data/preprocessed/2-House_of_commons_2019ff_vader-textblob.csv")

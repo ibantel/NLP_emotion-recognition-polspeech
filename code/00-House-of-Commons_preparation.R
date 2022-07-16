@@ -2,8 +2,11 @@ library(tidyverse)
 
 # use "Corp_HouseOfCommons_V2.rds" from here:
 # https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN
+# download and save in "../data/raw/"
 
-file_in <- paste0(path, "Corp_HouseOfCommons_V2.rds")
+path <- "../data/"
+
+file_in <- paste0(path, "raw/Corp_HouseOfCommons_V2.rds")
 
 file_out <- paste0(path, "Corp_HouseOfCommons_V2.csv")
 

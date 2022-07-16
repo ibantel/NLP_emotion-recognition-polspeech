@@ -9,7 +9,7 @@ import re
 import timeit
 
 #os.chdir("./OneDrive/SICSS_affect_NLP")
-data_base = "./Data/dataverse_files/Corp_HouseOfCommons_V2.csv"
+data_base = "./data/Corp_HouseOfCommons_V2.csv"
 
 #%% Loading and minor preprocessing of data
 HoC = pd.read_csv(data_base)
@@ -56,12 +56,12 @@ del starttime
 HoC_long = HoC_long.drop(columns = 'text')
 
 # export intermediary result
-HoC_long.head(100).to_csv("./Data/UK-HoC/preprocessed/1-House_of_commons_2019ff_preprocessed_head100.csv")
-HoC_long.to_csv("./Data/UK-HoC/preprocessed/1-House_of_commons_2019ff_preprocessed.csv")
+HoC_long.head(100).to_csv("./data/preprocessed/1-House_of_commons_2019ff_preprocessed_head100.csv")
+HoC_long.to_csv("./data/preprocessed/1-House_of_commons_2019ff_preprocessed.csv")
 
 
 #%% NLP
-# Here, we would apply the NLP pipeline for NER; 
+# Here, we could apply the NLP pipeline for NER;
 # However, since we will only do that later (in step 3), it is omitted here
 
 #nlp = spacy.load("en_core_web_sm", disable=["tagger", "attribute_ruler", "lemmatizer"])
