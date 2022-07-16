@@ -20,7 +20,7 @@ NLP_emotion-recognition-polspeech
 │       package links.txt (links to install packages if/ where needed)
 │       plots.r (file to create plots based on the predicted data)
 │       sampling_emotive_statements.R (samples for face validity)
-└───data/`
+└───data
     └───BERT-in (data needed in code/03-emotion-recognition_with_BERT.ipynb)
     │       House_of_commons_2019ff_labelled_test.csv (labelled data to train neural model on)
     │       House_of_commons_2019ff_to_predict.csv (data to predict - selected sentences)
