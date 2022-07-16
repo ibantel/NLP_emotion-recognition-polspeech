@@ -31,3 +31,5 @@ NLP_emotion-recognition-polspeech
     └───preprocessed (data produced by "code/00-..."-"code/02-...", partly not uploaded on GitHub due to space restrictions)
             1-House_of_commons_2019ff_preprocessed_head100.csv (a shortened sample output of "code/01-HoC_preparation_IB.py")
             data-overview.txt (a text file of file names that should be produced when running the code that are saved in "/data/preprocessed")
+└───plots (various plots created using plots.R)
+ ```
